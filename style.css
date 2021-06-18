@@ -1,0 +1,80 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+/*Fin del reseteo*/
+
+body{
+    font-size: 62.5%;
+    background-color: black;
+
+}
+
+.piefoto{
+    color: darkgray;
+    font-size: 4mm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+#cabecera{
+    color: darkgray;
+    width: 250px;
+    font-size: 8mm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    margin: 15px auto;
+    background: -webkit-linear-gradient(left, rgb(0,0,139), rgb(77, 12, 138));
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: rgb(138,43,226) 5px 5px 10px;
+    text-shadow: slategray 5px 5px 5px;
+    padding: 2px;
+
+}
+
+section{
+    width: 90%;
+    border-top: 1px dashed gray;
+    margin: 15px auto;
+}
+
+figure{
+    float: left;
+}
+
+footer{
+    clear: both;
+    
+}
+
+#parrafo{
+    padding-top: 50px;
+    margin: 15px 10px;
+}
+
+#imagenes{
+    border: 2px solid gray;
+    border-radius: 8px;
+    box-shadow: rgb(138,43,226) 5px 5px 10px;
+    -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+
+}
+
+figure img:hover{
+    -webkit-transform: scale(1.2);
+
+}
+
